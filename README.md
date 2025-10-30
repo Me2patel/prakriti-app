@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# 🏷️ Prakriti Wellness – Ayurvedic Lifestyle Analysis App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📖 Description
 
-## Available Scripts
+**Prakriti Wellness** is a modern React-based web application built to help users discover their **Ayurvedic body constitution (Prakriti)** — *Vata*, *Pitta*, or *Kapha*.
+It provides personalized **diet, lifestyle, and daily routine recommendations**, along with a **follow-up tracking system** and **admin management panel** — all using local storage for seamless data handling.
 
-In the project directory, you can run:
+This app promotes **self-awareness and holistic well-being**, blending the timeless wisdom of Ayurveda with clean, interactive, and modern web technology.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ⚙️ Installation Steps
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Follow these steps to set up and run the project locally 👇
 
-### `npm test`
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/Me2patel/prakriti-app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 2️⃣ Navigate into the project directory
+cd prakriti-app
 
-### `npm run build`
+# 3️⃣ Install dependencies
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 4️⃣ Start the development server
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ▶️ How to Run the Project
 
-### `npm run eject`
+Once started, open your browser and go to:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+👉 **[http://localhost:3000](http://localhost:3000)**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You’ll see the **Prakriti Wellness Home Page**.
+From there, you can navigate to the **Dashboard**, create a **User Profile**, take the **Prakriti Quiz**, and explore **Diet Charts**, **Daily Schedules**, and **Follow-ups**.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 💡 Technologies Used
 
-## Learn More
+| Technology                  | Purpose                             |
+| --------------------------- | ----------------------------------- |
+| ⚛️ **React.js**             | Frontend framework                  |
+| 💅 **Material UI (MUI)**    | Modern and responsive UI components |
+| 🧠 **JavaScript (ES6+)**    | App logic and interactivity         |
+| 💾 **LocalStorage**         | Client-side data storage            |
+| 🧭 **React Router**         | Multi-page navigation and routing   |
+| 🎨 **Custom CSS & Styling** | Theming and UI enhancements         |
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ✨ Features
 
-### Code Splitting
+✅ Create and save **user profiles** with health info
+✅ Take a **Prakriti Quiz** to determine your Ayurvedic body type
+✅ Get **personalized diet** and **daily routine** recommendations
+✅ Manage and track **Follow-ups** with progress indicators
+✅ Access an **Admin Panel** to view all saved users and reports
+✅ Responsive, modern **dashboard layout** with side navigation
+✅ Lightweight — all data stored locally for privacy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 👨‍💻 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Meet Patel**
+📧 [22amtics181@gmail.com]
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📜 License
 
-### Advanced Configuration
+This project is **open-source** and available under the **MIT License**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
